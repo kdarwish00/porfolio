@@ -1,0 +1,70 @@
+.kd__experience {
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1450px;
+    height: 1300px;
+  
+    margin-left: 230px;
+  }
+  
+  .kd__experience__jobs h1 {
+    color: var(--color-header);
+    font-size: 40px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+  
+  .kd__experience__jobs h2 {
+    color: var(--color-subtext);
+  }
+  
+  .heading {
+    font-family: var(--font-keywords);
+    color: var(--color-keywords);
+  }
+  
+  .kd__experience__jobs a {
+    text-decoration: none;
+    color: var(--color-keywords);
+    margin-left: 0.25em;
+  }
+  .kd__experience__jobs h3 {
+    color: var(--color-keywords);
+    margin-top: 10px;
+  }
+  
+  .kd__experience__jobs ul {
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: var(--color-subtext);
+  }
+  
+  .skillset {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: var(--font-keywords);
+  }
+  
+  .skillset li {
+    margin-left: 40px;
+    border: 1px solid var(--color-keywords);
+    color: var(--color-header);
+    padding: 15px;
+  }
+  
+  .skillset li:hover {
+    background-color: #64ffdb17;
+  
+  }
+  
+  .skillset li::before {
+      content: "";
+  }
+  
+  .kd__experience__jobs-2 {
+     margin-top: 50px;
+  }

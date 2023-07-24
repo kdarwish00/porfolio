@@ -1,0 +1,85 @@
+.kd__work {
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1450px;
+  height: 800px;
+
+  margin-left: 230px;
+}
+
+.kd__work h1 {
+  color: var(--color-header);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.kd__work h1 span {
+  color: var(--color-keywords);
+  font-family: var(--font-keywords);
+}
+
+.kd__work-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kd__work-projects h2 {
+  color: var(--color-subtext);
+  margin-bottom: 10px;
+}
+
+.kd__work-projects p {
+  border: 1px solid none;
+  padding: 20px;
+  color: var(--color-subtext);
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #0d274a;
+  margin-bottom: 10px;
+  height: 300px;
+  max-width: 333px;
+}
+
+.kd__work-projects span {
+  color: var(--color-keywords);
+}
+
+.kd__work-projects h3 {
+  font-family: var(--font-keywords);
+  color: var(--color-keywords);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.github {
+  margin-right: 2px;
+  float:left;
+  transition: margin 0.2s ease-out;
+	-webkit-transition: margin 0.2s ease-out;
+    -moz-transition: margin 0.2s ease-out;
+    -o-transition: margin 0.2s ease-out;
+
+}
+
+.github:hover {
+  cursor:pointer;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .kd__work-project1,
+  .kd__work-project2,
+  .kd__work-project3 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .kd__work-project1,
+  .kd__work-project2,
+  .kd__work-project3 {
+    width: calc(33.33% - 20px);
+  }
+}
